@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="IE=edge">
+    <title> Ayushi's Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(9, 9, 39);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 77px;
+            background-color: rgb(29, 29, 110);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            color: rgb(142, 142, 236);
+            font-size: 1.5rem;
+
+        }
+
+        .left {
+            font-size: 1rem;
+        }
+
+        .right {
+            font-size: 1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            margin: 75px 0;
+            align-items: center;
+        }
+
+        .leftSection {
+            margin: 45px 30px 100px 100px;
+            width: 70%;
+            font-family: cursive;
+            font-size: 1.6rem;
+        }
+
+        .leftSection .download-btn{
+            padding: 10px;
+            background-color: black;
+            border: 3px solid white;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .leftSection .buttons{
+            padding:  40px;
+        }
+
+        .rightSection img {
+            height: 70%;
+            width: 85%;
+            margin: 28px 15px 85px 64px;
+        }
+
+        .purple {
+            color: rgb(223, 131, 223);
+        }
+
+        .text-gray {
+            color: gray;
+            margin: 20px 40px;
+        }
+
+        #element {
+            color: rgb(223, 131, 223);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: 15px 20px;
+            height: 80vh;
+
+
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(127, 110, 226);
+            height: 1.1px;
+            margin: 40px 84px;
+
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+            margin: 10px 40px;
+
+
+
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 93vw;
+            height: 2px;
+            margin: 56px 10px;
+            display: flex;
+
+
+
+        }
+
+        .secondSection .vertical {
+            height: 100px;
+            width: 1px;
+            background-color: white;
+
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            width: 50px;
+            height: 60px;
+            position: relative;
+            top: -61px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 200px;
+            
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 150px;
+            bottom: 150px;
+            color: grey;
+            font-size: 14px;
+            width: 140px;
+            padding: 10px 10px;
+        }
+
+        footer {
+            background-color: rgb(18, 18, 41);
+            height: 233px;
+            margin: 300px 0 0 0;
+            
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 70px;
+            justify-content: space-evenly;
+            font-size: 20px;
+            
+
+        }
+
+        .footer ul {
+            list-style: none;
+            font-size: 20px;
+        }
+
+        .footer>div {
+            width: 323px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">MY PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact me </li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi , My name is <span class="purple">Ayushi Bhutani </span>
+                <div>and I am passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf" download class ="download-btn">Download Resume</a>
+                    
+                    <a href="https://github.com/Ayushi-bhutani" visit class ="download-btn">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="ayu.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What Projects I have made so far </span>
+            <h1> Work experience </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html1.png" alt="">
+                    <div class="vertical-title">
+                        Tesla Website using HTML, CSS and JS
+                    </div>
+                    <div class="vertical-desc">
+                        I have made a clone of Tesla website using html, css and javascript as my first project in college wherein I develped new features for the application and created a new landing page to enhance customer experience  
+                    </div>
+
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="ml.png" alt="">
+                    <div class="vertical-title">
+                        Fake news detection system using ML
+                    </div>
+                    <div class="vertical-desc">
+                        Fake news detection system is my second project which i made using knowledge of python django frameworks, api integration, ml algorithms and front end web development .
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">
+                        Medicine Record Management System
+                    </div>
+                    <div class="vertical-desc">
+                        I made Medicine record management system using basics concept of c programming language.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.jpg" alt="">
+                    <div class="vertical-title">
+                        Contact Application system using python
+                    </div>
+                    <div class="vertical-desc">
+                        Contact application was made using basics of python concepts including lists, tuples, dictionary.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.jpg" alt="">
+                    <div class="vertical-title">
+                        Online Food Delivery System using python
+                    </div>
+                    <div class="vertical-desc">
+                        Online food delivery system was made successfully applying basic concepts of python programming language.
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html2.jpg" alt="">
+                    <div class="vertical-title">
+                        Responsive Calculator using HTML, CSS, JS
+                    </div>
+                    <div class="vertical-desc">
+                        Responsive calculator was made using html, css, javascrpit which can perform multiple operations like addition, substraction, multiplication, division, finding remainder, floor division. 
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>
+                    Ayushi's Developer Portfolio
+                </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyright &#169; ayushiportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' web developer', ' a graphic designer', ' a data analyst', '&amp; a python developer.'],
+            typeSpeed: 50,
+        });
+    document.addEventListener('DOMContentLoaded', function () {
+    const downloadButton = document.getElementById('download-btn');
+
+    downloadButton.addEventListener('click', function () {
+        // You can replace 'resume.pdf' with the actual path to your resume file
+        window.open('resume.pdf', '_blank');
+    });
+});
+
+    </script>
+</body>
+
+</html>
